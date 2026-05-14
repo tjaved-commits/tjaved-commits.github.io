@@ -15637,7 +15637,7 @@ fieldset legend {
 
 .card-login .input-group { border:  1px solid #CACACA; border-radius: 5px; background: #fff; padding: 5px 0; overflow: hidden; }
 
-.card-login .input-group .input-group-text { border: 0; border-radius: none; box-shadow: 0; background: #fff; color: #CACACA; }
+.card-login .input-group .input-group-text { border: 0; border-radius: none; box-shadow: none; background: #fff; color: #CACACA; }
 
 .card-login .input-group input { font-family: "Lato", sans-serif; font-weight: 400; border: 0; border-radius: 0; box-shadow: none; background: #fff; color: #CACACA; }
 
@@ -15733,7 +15733,7 @@ fieldset legend {
 
 .notice_box .contact_notice_btn { align-items: center; }
 
-.notice_box .contact_notice_btn .btn { box-shadow: 0; background: #E35706; border-color: #E35706; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 400; }
+.notice_box .contact_notice_btn .btn { box-shadow: none; background: #E35706; border-color: #E35706; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 400; }
 
 .notice_box .contact_notice_btn a { color: #5C5C5C; font-family: "Lato", sans-serif; font-size: 16px; font-weight: 400; }
 
@@ -15741,7 +15741,7 @@ fieldset legend {
 
 .membership-sect-head h2 { font-family: "Montserrat", sans-serif; color: #1E1E1E; font-size: 24px; font-weight: 500; }
 
-.membership-sect-head .btn { box-shadow: 0; background: #50769B; border-color: #50769B; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 400; }
+.membership-sect-head .btn { box-shadow: none; background: #50769B; border-color: #50769B; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 400; }
 
 .membership-sect .membership-boxes { background: #F8FAFB; border: 1px solid #50769B1A; border-radius: 12px; padding: 20px; }
 
@@ -15769,9 +15769,9 @@ fieldset legend {
 
 .dashboard-billing-row .billing-item p { font-family: "Lato", sans-serif; color: #5C5C5C; font-size: 16px; font-weight: 400; }
 
-.dashboard-billing-row .billing-item .btn-outline-primary { box-shadow: 0; background: transparent; border-color: #50769B; font-family: "Lato", sans-serif; color: #000; font-size: 16px; font-weight: 600; }
+.dashboard-billing-row .billing-item .btn-outline-primary { box-shadow: none; background: transparent; border-color: #50769B; font-family: "Lato", sans-serif; color: #000; font-size: 16px; font-weight: 600; }
 
-.dashboard-billing-row .billing-item .btn-primary { box-shadow: 0; background: #50769B; border-color: #50769B; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 600; }
+.dashboard-billing-row .billing-item .btn-primary { box-shadow: none; background: #50769B; border-color: #50769B; font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 600; }
 
 .dashboard-team-card { background: #fff; border-radius: 12px; border: 1px solid #EEF1F5; padding: 20px; }
 
@@ -15791,7 +15791,7 @@ fieldset legend {
 
 .support-card .card-body p { font-family: "Lato", sans-serif; color: #fff; font-size: 16px; font-weight: 400; }
 
-.support-card .card-body .btn { box-shadow: 0; background: #fff; border-color: #fff; font-family: "Lato", sans-serif; color: #50769B; font-size: 16px; font-weight: 600; }
+.support-card .card-body .btn { box-shadow: none; background: #fff; border-color: #fff; font-family: "Lato", sans-serif; color: #50769B; font-size: 16px; font-weight: 600; }
 
 .dashboard-visits-row { background: #fff; border-radius: 12px; border: 1px solid #EEF1F5; padding: 20px; }
 
@@ -15879,11 +15879,4 @@ fieldset legend {
 
 .documents-tabs .custom-record-tabs .nav-link.active::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 4px; border-radius: 10px; background: #50769B; }
 
-.record-icon {
-  width: 90px;
-  height: 90px;
-  background: #eef3f7;
-  flex-shrink: 0;
-}
-
-.documents-tabs {}
+.documents-tabs .dashboard-billing-row .billing-item .btn-outline-primary { color: #50769B; }
