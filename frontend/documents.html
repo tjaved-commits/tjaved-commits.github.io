@@ -371,86 +371,718 @@
           </div>
           <!--end::Container-->
         </div>
-        <div class="app-content">
-          <!--begin::Container-->
-          <div class="container-fluid">
-			<div class="row mb-4">
-				<div class="col-12">
-					<div class="position-relative w-100">
+		<div class="app-content">
 
-					  <!-- Search Icon -->
-					  <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3 text-muted"></i>
+<!-- Records Section -->
+<div class="container-fluid documents-tabs">
 
-					  <!-- Search Input -->
-					  <input 
-						type="text" 
-						class="form-control ps-5 py-3" 
-						placeholder="Search Messages"
-					  >
+  <!-- ========================= -->
+  <!-- Tabs -->
+  <!-- ========================= -->
+  <ul class="nav custom-record-tabs mb-4"
+      id="recordsTab"
+      role="tablist">
 
-					</div>
-				</div>
-			</div>
-            <!--begin::Row-->
-			<!-- Dashboard Wrapper -->
-			<div class="portal-dashboard">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active"
+              id="all-records-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#all-records"
+              type="button"
+              role="tab">
+        All Records
+      </button>
+    </li>
 
-			  <!-- ========================= -->
-			  <!-- Recommended Appointments Row -->
-			  <!-- ========================= -->
-			  <div class="row mb-4">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link"
+              id="contracts-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contracts"
+              type="button"
+              role="tab">
+        Signed Contracts
+      </button>
+    </li>
 
-				<div class="col-12">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link"
+              id="lab-reports-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#lab-reports"
+              type="button"
+              role="tab">
+        Lab Reports
+      </button>
+    </li>
 
-				  <div class="dashboard-visits-row past-appointments-row">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link"
+              id="imaging-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#imaging"
+              type="button"
+              role="tab">
+        Imaging
+      </button>
+    </li>
 
-					<div class="">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link"
+              id="others-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#others"
+              type="button"
+              role="tab">
+        Others
+      </button>
+    </li>
 
-					  <!-- Visit Item -->
-					  <div class="visit-item dashboard-team-card">
+  </ul>
 
-						<div>
+  <!-- ========================= -->
+  <!-- Tab Content -->
+  <!-- ========================= -->
+  <div class="tab-content" id="recordsTabContent">
 
-						  <div>
+    <!-- ========================= -->
+    <!-- Signed Contracts -->
+    <!-- ========================= -->
+    <div class="tab-pane fade show active"
+         id="all-records"
+         role="tabpanel">
+	  
+	  <div class="dashboard-billing-row">
 
-							<div class="message-item p-0">
+        <div class="">
 
-							  <h3 class="mb-1">
-								Billing Department <span class="fs-6">●</span>
-							  </h3>
+          <h2 class="mb-4">
+            All Records
+          </h2>
 
-							  <p class="mb-1">
-								<strong>Your payment has been processed</strong>
-							  </p>
-							  
-							  <p class="mb-1">
-								Thank you for your payment of $128.00. Your transaction was successful...
-							  </p>
-							  <p class="mb-0 opacity-50">
-								2 hours ago
-							  </p>
+          <div class="billing-item mb-3">
 
-							</div>
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
 
-						  </div>
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
 
-						</div>
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
 
-					  </div>
+                <div>
 
-					</div>
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
 
-				  </div>
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
 
-				</div>
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
 
-			  </div>
+                </div>
 
+              </div>
 
-			</div>
+              <!-- Right -->
+              <div class="d-flex gap-3">
 
-            <!--end::Row-->
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
           </div>
+		  
+		  <div class="billing-item mb-0">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Signed Contracts Tab -->
+    <!-- ========================= -->
+    <div class="tab-pane fade"
+         id="contracts"
+         role="tabpanel">
+
+      <div class="dashboard-billing-row">
+
+        <div class="">
+
+          <h2 class="mb-4">
+            Signed Contracts
+          </h2>
+
+          <div class="billing-item mb-3">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+		  
+		  <div class="billing-item mb-0">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Lab Reports -->
+    <!-- ========================= -->
+    <div class="tab-pane fade"
+         id="lab-reports"
+         role="tabpanel">
+
+      <div class="dashboard-billing-row">
+
+        <div class="">
+
+          <h2 class="mb-4">
+            Lab Reports
+          </h2>
+
+          <div class="billing-item mb-3">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+		  
+		  <div class="billing-item mb-0">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- Imaging -->
+    <!-- ========================= -->
+    <div class="tab-pane fade"
+         id="imaging"
+         role="tabpanel">
+
+      <div class="dashboard-billing-row">
+
+        <div class="">
+
+          <h2 class="mb-4">
+            Imaging
+          </h2>
+
+          <div class="billing-item mb-3">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+		  
+		  <div class="billing-item mb-0">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ========================= -->
+    <!-- Others -->
+    <!-- ========================= -->
+    <div class="tab-pane fade"
+         id="others"
+         role="tabpanel">
+
+      <div class="dashboard-billing-row">
+
+        <div class="">
+
+          <h2 class="mb-4">
+            Others
+          </h2>
+
+          <div class="billing-item mb-3">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+		  
+		  <div class="billing-item mb-0">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+              <!-- Left -->
+              <div class="d-flex gap-3 align-items-center">
+
+                <div class="billing-icon">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+
+                <div>
+
+                  <h3 class="mb-1">
+                    Membership Agreement 2024
+                  </h3>
+
+                  <p class="mb-1">
+                    Signed membership contract and terms of service
+                  </p>
+
+                  <p class="mb-0">
+                    Perlow Medical Cooperation
+                    &nbsp;•&nbsp;
+                    Signed: January 15, 2024
+                    &nbsp;•&nbsp;
+                    PDF
+                    &nbsp;•&nbsp;
+                    856 KB
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Right -->
+              <div class="d-flex gap-3">
+
+                <button class="btn btn-outline-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-eye me-2"></i> View
+                </button>
+
+                <button class="btn btn-primary px-4 py-2 rounded-3">
+                  <i class="bi bi-download me-2"></i> Download
+                </button>
+
+              </div>
+
+            </div>
+			
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
           <!--end::Container-->
         </div>
         <!--end::App Content-->

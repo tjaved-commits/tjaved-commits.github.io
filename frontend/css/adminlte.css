@@ -15870,3 +15870,20 @@ fieldset legend {
 .dashboard-team-card .message-item .text-right .badge { border: 1px solid #50769B; background: #50769b1a; color: #50769B; font-size: 16px; font-weight: 400; border-radius: 50px; }
 
 .appointment-page.messages-page .app-content-header p { color: #5C5C5C; }
+
+.documents-tabs .custom-record-tabs { gap: 50px; border-bottom: none; }
+
+.documents-tabs .custom-record-tabs .nav-link { opacity: 0.5; border: none; border-radius: 0; background: transparent; color: #1E1E1E; font-size: 20px; font-weight: 500; padding: 0 15px 14px; position: relative; font-family: "Montserrat", sans-serif; }
+
+.documents-tabs .custom-record-tabs .nav-link.active { opacity: 1; color: #1E1E1E; background: transparent; }
+
+.documents-tabs .custom-record-tabs .nav-link.active::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 4px; border-radius: 10px; background: #50769B; }
+
+.record-icon {
+  width: 90px;
+  height: 90px;
+  background: #eef3f7;
+  flex-shrink: 0;
+}
+
+.documents-tabs {}
