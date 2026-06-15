@@ -15880,3 +15880,142 @@ fieldset legend {
 .documents-tabs .custom-record-tabs .nav-link.active::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 4px; border-radius: 10px; background: #50769B; }
 
 .documents-tabs .dashboard-billing-row .billing-item .btn-outline-primary { color: #50769B; }
+
+.search-wrapper {
+    max-width: 700px;
+}
+
+.custom-search {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 52px;
+}
+
+.custom-search .input-group-text {
+    color: #bdbdbd;
+    padding-left: 16px; font-family: "Lato", sans-serif;
+}
+
+.custom-search .form-control {
+    font-size: 16px; font-family: "Lato", sans-serif;
+}
+
+.custom-search .form-control::placeholder {
+    color: #bdbdbd;
+}
+
+.filter-btn {
+    width: 52px;
+    border: 0;
+    background: #fff;
+    color: #bdbdbd;
+    border-left: 1px solid #e5e5e5;
+}
+
+.filter-btn:hover {
+    background: #f8f9fa;
+}
+
+.badge-pill {
+      border: 1.5px solid #5b8db8;
+      color: #5b8db8;
+      border-radius: 20px;
+      background: transparent;
+      font-size: 0.78rem;
+      font-weight: 400;
+      padding: 4px 14px;
+      white-space: nowrap;
+      display: inline-block; font-family: "Lato", sans-serif;
+    }
+
+.badge-pill.grace  { border-color: #5b8db8; color: #5b8db8; }
+    .badge-pill.lapsed { border-color: #adb5bd; color: #6c757d; }
+
+    .btn-view {
+      background: #50769B;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 18px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap; font-family: "Lato", sans-serif; text-decoration: none;
+    }
+    .btn-view:hover { background: #1a2a42; color: #fff; }
+
+    .table > :not(caption) > * > * { background: transparent; font-family: "Lato", sans-serif; }
+    .table tbody tr:hover td { background-color: #f8f9fa !important;  font-family: "Lato", sans-serif;}
+
+.table-responsive .table { border-radius: 0; }
+	
+.table-responsive .table thead { background: #50769B1A; border-radius: 8px; }
+
+.table-responsive .table tbody tr { background: #F8FAFB; border-radius: 8px; }
+
+.member-card { background: #FFFFFF; padding: 20px; border-radius: 12px; border: 1px solid #EEF1F5; }
+
+.member-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 14px;
+    border: 1px solid #5b7ea5;
+    border-radius: 20px;
+    color: #5b7ea5;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.member-name {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: #212529;
+}
+
+.member-email {
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+.member-btn {
+    background: #5b7ea5;
+    color: #fff;
+    border: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.member-btn:hover {
+    background: #4d7098;
+    color: #fff;
+}
+
+.stat-box {
+    background: #F8FAFB;
+    border: 1px solid #50769B1A;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+}
+
+
+.stat-label {
+    font-size: 18px;
+    color: #1E1E1E; font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.stat-value {
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #50769B;
+}

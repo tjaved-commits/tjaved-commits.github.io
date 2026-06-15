@@ -3,7 +3,7 @@
   <!--begin::Head-->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Appointments | Perlow Medical Cooperation</title>
+    <title>Perlow Medical Cooperation</title>
 
     <!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -301,35 +301,11 @@
               id="navigation"
             >
               <li class="nav-item menu-open">
-                <a href="index.html" class="nav-link">
-                  <i class="nav-icon bi bi-house-door"></i>
+                <a href="index.html" class="nav-link active">
+                  <i class="nav-icon bi bi-people"></i>
                   <p>
-                    Dashboard
+                    Patient Directory
                   </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="appointments.html" class="nav-link active">
-                  <i class="nav-icon bi bi-calendar"></i>
-                  <p>Appointment</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="billing.html" class="nav-link">
-                  <i class="nav-icon bi bi-card-list"></i>
-                  <p>Billing and Payment</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="messages.html" class="nav-link">
-                  <i class="nav-icon bi bi-chat-left"></i>
-                  <p>Messages</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="documents.html" class="nav-link">
-                  <i class="nav-icon bi bi-file-text"></i>
-                  <p>Documents</p>
                 </a>
               </li>
             </ul>
@@ -352,19 +328,15 @@
       </aside>
       <!--end::Sidebar-->
       <!--begin::App Main-->
-      <main class="app-main appointment-page">
+      <main class="app-main">
         <!--begin::App Content Header-->
         <div class="app-content-header">
           <!--begin::Container-->
           <div class="container-fluid">
             <!--begin::Row-->
-            <div class="row align-items-center app-main-title">
-              <div class="col-12 col-md-6 col-sm-6">
-                <h1 class="mb-0">Appointments</h1>
-				<p><i class="bi bi-info-circle"></i> If this is a medical emergency, please dial 911</p>
-              </div>
-			  <div class="col-12 col-md-6 col-sm-6 text-right">
-                <button class="btn btn-primary">Request Appointment</button>
+            <div class="row app-main-title">
+              <div class="col-sm-12">
+				<p><a style="color: #5C5C5C; text-decoration: none;" href="index.html"><i class="bi bi-arrow-left"></i> Back to Patient Directory</a></p>
               </div>
             </div>
             <!--end::Row-->
@@ -374,408 +346,49 @@
         <div class="app-content">
           <!--begin::Container-->
           <div class="container-fluid">
-			<div class="row">
+			<div class="row mb-4">
 				<div class="col-12">
-					<div class="container-fluid membership-sect visit-history-status-sect mb-4">
 
-					  <!-- Header -->
-					  <div class="d-flex justify-content-between align-items-center mb-4 membership-sect-head">
-						<h2 class="mb-0 fw-semibold">Visit History & Status</h2>
-					  </div>
+					<div class="container-fluid p-0">
+						<div class="member-card">
 
-					  <!-- Cards -->
-					  <div class="row dashboard-top-row g-4">
+							<div class="d-flex justify-content-between align-items-start flex-wrap gap-4">
 
-						<!-- Appointments -->
-						<div class="col-lg-4">
-						  <div class="dashboard-stat-card h-100">
-							<div class="position-relative">
+								<div>
 
-							  <h3 class="mb-2">Last Visit</h3>
-
-							  <h2 class="mb-2">
-								April 21, 2026
-							  </h2>
-
-							  <p class="mb-0">
-								Annual Physical with Dr. Johnson
-							  </p>
+									<h1 class="member-name mb-0" style="font-size: 24px;">Your lab results are ready for review</h1>
+									<p class="member-email mb-0">Dr. Sarah Johnson   •   April 27, 2026</p>
+								</div>
 
 							</div>
-						  </div>
-						</div>
 
-						<!-- Messages -->
-						<div class="col-lg-4">
-						  <div class="dashboard-stat-card h-100">
-							<div class="position-relative">
+							<div class="row g-4 mt-1">
 
-							  <h3 class="mb-2">Visits This Year</h3>
+								<div class="col-md-12">
+									<div class="stat-box">
+										<p>Hello Mountainise,<br><br>
 
-							  <h2 class="mb-2">
-								4 visits
-							  </h2>
+Your recent blood work results have been processed and are now available for review. All values are within normal range. Your cholesterol levels have improved since your last visit.
+Please schedule a follow-up appointment if you have any questions or concerns.<br><br>
 
-							  <p class="mb-0">
-								January 2026 - Present
-							  </p>
+Best regards,<br>
+Dr. Sarah Johnson, MD</p>
+									</div>
+								</div>
 
 							</div>
-						  </div>
-						</div>
-
-						<!-- Billing -->
-						<div class="col-lg-4">
-						  <div class="dashboard-stat-card h-100">
-							<div class="position-relative">
-
-							  <h3 class="mb-2">Follow-Up Status</h3>
-
-							  <h2 class="mb-2">
-								1 Pending
-							  </h2>
-
-							  <p class="mb-0">
-								Dental checkup recommended
-							  </p>
-
+							<div class="row mt-3">
+								<div class="col-sm-12">
+									<button class="btn px-4" style="background:#2c3e5b; color:#fff; border-radius:8px; font-size:0.875rem; font-weight:600;">Send Email</button>
+								</div>
 							</div>
-						  </div>
-						</div>
 
-					  </div>
+						</div>
 					</div>
+					
 				</div>
 			</div>
             <!--begin::Row-->
-			<!-- Dashboard Wrapper -->
-			<div class="portal-dashboard">
-			  
-
-			  <!-- ========================= -->
-			  <!-- Upcoming Visits Row -->
-			  <!-- ========================= -->
-			  <div class="row mb-4">
-
-				<div class="col-12">
-
-				  <div class="dashboard-visits-row upcoming-appointments-row">
-
-					<div class="">
-
-					  <!-- Header -->
-					  <div class="d-flex justify-content-between align-items-center mb-4 dashboard-visits-title-row">
-
-						<h2 class="mb-0">
-						  Upcoming Appointments
-						</h2>
-
-					  </div>
-
-					  <!-- Visit Item -->
-					  <div class="visit-item mb-3">
-
-						<div class="d-flex justify-content-between align-items-start">
-
-						  <div class="d-flex gap-3">
-
-							<div class="visit-icon">
-							  <i class="bi bi-calendar fs-1"></i>
-							</div>
-
-							<div>
-
-							  <h3 class="mb-1">
-								Annual Physical Exam
-							  </h3>
-
-							  <p class="mb-1">
-								Dr. Sarah Johnson, MD
-							  </p>
-
-							  <div class="d-flex gap-4 visit-date-time-row">
-
-								<span>
-								  <i class="bi bi-calendar me-1"></i>
-								  Monday, May 5, 2026
-								</span>
-
-								<span>
-								  <i class="bi bi-clock me-1"></i>
-								  10:30 AM
-								</span>
-
-							  </div>
-
-							</div>
-
-						  </div>
-
-						  <span class="badge">
-							Upcoming
-						  </span>
-
-						</div>
-						<hr>
-						<div class="d-flex upcoming-appointments-ctas gap-2">
-						  <button class="btn btn-primary">View Details</button>
-						  <button class="btn btn-secondary">Reschedule</button>
-						  <button class="btn btn-danger">Cancel</button>
-						</div>
-
-					  </div>
-
-					  <!-- Visit Item -->
-					  <div class="visit-item">
-
-						<div class="d-flex justify-content-between align-items-start">
-
-						  <div class="d-flex gap-3">
-
-							<div class="visit-icon">
-							  <i class="bi bi-calendar fs-1"></i>
-							</div>
-
-							<div>
-
-							  <h3 class="h3 mb-2">
-								Dental Cleaning
-							  </h3>
-
-							  <p class="text-muted mb-2">
-								Dr. Michael Chen, DDS
-							  </p>
-
-							  <div class="d-flex gap-4 visit-date-time-row">
-
-								<span>
-								  <i class="bi bi-calendar me-1"></i>
-								  Monday, May 5, 2026
-								</span>
-
-								<span>
-								  <i class="bi bi-clock me-1"></i>
-								  10:30 AM
-								</span>
-
-							  </div>
-
-							</div>
-
-						  </div>
-
-						  <span class="badge">
-							Upcoming
-						  </span>
-
-						</div>
-						<hr>
-						<div class="d-flex upcoming-appointments-ctas gap-2">
-						  <button class="btn btn-primary">View Details</button>
-						  <button class="btn btn-secondary">Reschedule</button>
-						  <button class="btn btn-danger">Cancel</button>
-						</div>
-
-					  </div>
-
-					</div>
-
-				  </div>
-
-				</div>
-
-			  </div>
-
-			  <!-- ========================= -->
-			  <!-- Recommended Appointments Row -->
-			  <!-- ========================= -->
-			  <div class="row mb-4">
-
-				<div class="col-12">
-
-				  <div class="dashboard-visits-row past-appointments-row">
-
-					<div class="">
-
-					  <!-- Header -->
-					  <div class="d-flex justify-content-between align-items-center mb-4 dashboard-visits-title-row">
-
-						<h2 class="mb-0">
-						  Recommended Appointments
-						</h2>
-
-					  </div>
-
-					  <!-- Visit Item -->
-					  <div class="visit-item p-5">
-
-						<div>
-
-						  <div>
-
-							<div>
-
-							  <h3 class="mb-1 text-center">
-								You currently have no recommended appointments.
-							  </h3>
-
-							  <p class="text-center">
-								We'll notify you when preventive care visits are due
-							  </p>
-
-							</div>
-
-						  </div>
-
-						</div>
-
-					  </div>
-
-					</div>
-
-				  </div>
-
-				</div>
-
-			  </div>
-
-			  <!-- ========================= -->
-			  <!-- Past Appointments Row -->
-			  <!-- ========================= -->
-			  <div class="row mb-4">
-
-				<div class="col-12">
-
-				  <div class="dashboard-visits-row past-appointments-row">
-
-					<div class="">
-
-					  <!-- Header -->
-					  <div class="d-flex justify-content-between align-items-center mb-4 dashboard-visits-title-row">
-
-						<h2 class="mb-0">
-						  Past Appointments
-						</h2>
-
-					  </div>
-
-					  <!-- Visit Item -->
-					  <div class="visit-item mb-3">
-
-						<div class="d-flex justify-content-between align-items-start">
-
-						  <div class="d-flex gap-3">
-
-							<div>
-
-							  <h3 class="mb-1">
-								Annual Physical Exam
-							  </h3>
-
-							  <p class="mb-1">
-								Dr. Sarah Johnson, MD
-							  </p>
-
-							  <div class="d-flex gap-4 visit-date-time-row">
-
-								<span>
-								  <i class="bi bi-calendar me-1"></i>
-								  Monday, May 5, 2026
-								</span>
-
-								<span class="badge"><i class="bi bi-check2 me-1"></i> Completed</span>
-
-							  </div>
-
-							</div>
-
-						  </div>
-
-						</div>
-
-					  </div>
-
-					  <!-- Visit Item -->
-					  <div class="visit-item mb-3">
-
-						<div class="d-flex justify-content-between align-items-start">
-
-						  <div class="d-flex gap-3">
-
-							<div>
-
-							  <h3 class="mb-1">
-								Annual Physical Exam
-							  </h3>
-
-							  <p class="mb-1">
-								Dr. Sarah Johnson, MD
-							  </p>
-
-							  <div class="d-flex gap-4 visit-date-time-row">
-
-								<span>
-								  <i class="bi bi-calendar me-1"></i>
-								  Monday, May 5, 2026
-								</span>
-
-								<span class="badge"><i class="bi bi-check2 me-1"></i> Completed</span>
-
-							  </div>
-
-							</div>
-
-						  </div>
-
-						</div>
-
-					  </div>
-					  
-					  <!-- Visit Item -->
-					  <div class="visit-item">
-
-						<div class="d-flex justify-content-between align-items-start">
-
-						  <div class="d-flex gap-3">
-
-							<div>
-
-							  <h3 class="mb-1">
-								Annual Physical Exam
-							  </h3>
-
-							  <p class="mb-1">
-								Dr. Sarah Johnson, MD
-							  </p>
-
-							  <div class="d-flex gap-4 visit-date-time-row">
-
-								<span>
-								  <i class="bi bi-calendar me-1"></i>
-								  Monday, May 5, 2026
-								</span>
-
-								<span class="badge"><i class="bi bi-check2 me-1"></i> Completed</span>
-
-							  </div>
-
-							</div>
-
-						  </div>
-
-						</div>
-
-					  </div>
-
-					</div>
-
-				  </div>
-
-				</div>
-
-			  </div>
-
-			</div>
 
             <!--end::Row-->
           </div>
@@ -795,6 +408,144 @@
       </footer>
       <!--end::Footer-->
     </div>
+	
+	<!-- Share Portal Modal -->
+	<div class="modal fade" id="shareModal" tabindex="-1">
+	  <div class="modal-dialog modal-dialog-centered" style="max-width: 560px;">
+		<div class="modal-content border-0 rounded-3 p-2">
+
+		  <div class="modal-header border-0 pb-1">
+			<h5 class="modal-title fw-bold">Share Portal Access Link</h5>
+			<button class="btn-close" data-bs-dismiss="modal"></button>
+		  </div>
+
+		  <div class="modal-body pt-2">
+
+			<!-- Patient Info -->
+			<div class="rounded-3 p-3 mb-3" style="background:#f0f4f8; border: 1.5px solid #c9d8e8;">
+			  <div class="fw-semibold" style="color:#3a6ea5; font-size:0.95rem;">Patient: Mountainise Thompson</div>
+			  <div class="text-muted" style="font-size:0.85rem;">mountainise@email.com</div>
+			</div>
+
+			<!-- Portal Access Link -->
+			<div class="fw-bold mb-2" style="font-size:0.9rem;">Portal Access Link</div>
+			<div class="input-group mb-1 border rounded-2 overflow-hidden" style="border-color:#dee2e6 !important;">
+			  <input type="text" class="form-control border-0 bg-white shadow-none"
+				value="https://portal.perlowmedical.com/login?token=abc123xyz" readonly
+				style="font-size:0.85rem; color:#444;"/>
+			  <button class="btn btn-white border-0 d-flex align-items-center gap-1 px-3"
+				style="background:#f8f9fa; font-size:0.85rem; color:#555; border-left: 1px solid #dee2e6 !important;"
+				onclick="navigator.clipboard.writeText('https://portal.perlowmedical.com/login?token=abc123xyz')">
+				<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+				</svg>
+				Copy
+			  </button>
+			</div>
+			<div class="text-muted mb-3" style="font-size:0.8rem;">Link expires in 24 hours</div>
+
+			<!-- Send via Email -->
+			<div class="fw-bold mb-2" style="font-size:0.9rem;">Send via Email</div>
+			<textarea class="form-control shadow-none" rows="7" style="font-size:0.85rem; color:#444; resize:none; border-color:#dee2e6;">Hi Mountainise,
+
+	Here's your secure access link to the Perlow Medical Cooperation patient portal:
+
+	https://portal.perlowmedical.com/login?token=abc123xyz
+
+	This link will expire in 24 hours.
+
+	Best regards,
+	Perlow Medical Cooperation Team</textarea>
+
+		  </div>
+
+		  <!-- Footer Buttons -->
+		  <div class="modal-footer border-0 pt-1 gap-2">
+			<button class="btn text-dark px-4" data-bs-dismiss="modal"
+			  style="border: 1.5px solid #dee2e6; border-radius:8px; font-size:0.875rem;">Cancel</button>
+			<button class="btn px-4" style="background:#2c3e5b; color:#fff; border-radius:8px; font-size:0.875rem; font-weight:600;">Send Email</button>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+
+
+	<!-- Refund Modal -->
+	<div class="modal fade" id="refundModal" tabindex="-1">
+	  <div class="modal-dialog modal-dialog-centered" style="max-width: 560px;">
+		<div class="modal-content border-0 rounded-3 p-2">
+
+		  <div class="modal-header border-0 pb-1">
+			<h5 class="modal-title fw-bold">Submit Refund Request</h5>
+			<button class="btn-close" data-bs-dismiss="modal"></button>
+		  </div>
+
+		  <div class="modal-body pt-2">
+
+			<!-- Approval Notice -->
+			<div class="rounded-3 p-3 mb-4" style="background:#f0f4f8; border: 1.5px solid #c9d8e8;">
+			  <div class="fw-semibold mb-1" style="color:#3a6ea5; font-size:0.95rem;">Approval Required</div>
+			  <div class="text-muted" style="font-size:0.85rem;">This request will be routed to Dr. Perlow and Brandy for approval</div>
+			</div>
+
+			<!-- Patient -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Patient</label>
+			  <input type="text" class="form-control shadow-none" value="Mountainise Thompson" style="border-color:#dee2e6; font-size:0.875rem;"/>
+			</div>
+
+			<!-- Refund Amount -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Refund Amount</label>
+			  <input type="text" class="form-control shadow-none" value="$ 100.00" style="border-color:#dee2e6; font-size:0.875rem;"/>
+			</div>
+
+			<!-- Reason for Refund -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Reason for refund</label>
+			  <select class="form-select shadow-none" style="border-color:#dee2e6; font-size:0.875rem;">
+				<option selected>Billing Error</option>
+				<option>Duplicate Charge</option>
+				<option>Service Not Rendered</option>
+				<option>Other</option>
+			  </select>
+			</div>
+
+			<!-- Additional Details -->
+			<div class="mb-2">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Additional Details</label>
+			  <textarea class="form-control shadow-none" rows="6" placeholder="Provide an additional context or explanation..." style="border-color:#dee2e6; font-size:0.875rem; resize:none;"></textarea>
+			</div>
+
+		  </div>
+
+		  <!-- Footer -->
+		  <div class="modal-footer border-0 pt-1 gap-2">
+			<button class="btn text-dark px-4" data-bs-dismiss="modal"
+			  style="border: 1.5px solid #dee2e6; border-radius:8px; font-size:0.875rem;">Cancel</button>
+			<button class="btn px-4" style="background:#2c3e5b; color:#fff; border-radius:8px; font-size:0.875rem; font-weight:600;">Send Email</button>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+
+
+	<!-- Message Modal -->
+	<div class="modal fade" id="messageModal" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Send Message</h5>
+					<button class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body">
+					Dummy content for Send Message popup.
+				</div>
+			</div>
+		</div>
+	</div>
     <!--end::App Wrapper-->
     <!--begin::Script-->
     <!--begin::Third Party Plugin(OverlayScrollbars)-->

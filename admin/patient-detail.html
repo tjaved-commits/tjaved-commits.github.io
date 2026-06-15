@@ -3,7 +3,7 @@
   <!--begin::Head-->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Messages | Perlow Medical Cooperation</title>
+    <title>Perlow Medical Cooperation</title>
 
     <!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -301,35 +301,11 @@
               id="navigation"
             >
               <li class="nav-item menu-open">
-                <a href="index.html" class="nav-link">
-                  <i class="nav-icon bi bi-house-door"></i>
+                <a href="index.html" class="nav-link active">
+                  <i class="nav-icon bi bi-people"></i>
                   <p>
-                    Dashboard
+                    Patient Directory
                   </p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="appointments.html" class="nav-link">
-                  <i class="nav-icon bi bi-calendar"></i>
-                  <p>Appointment</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="billing.html" class="nav-link">
-                  <i class="nav-icon bi bi-card-list"></i>
-                  <p>Billing and Payment</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="messages.html" class="nav-link active">
-                  <i class="nav-icon bi bi-chat-left"></i>
-                  <p>Messages</p>
-                </a>
-              </li>
-			  <li class="nav-item">
-                <a href="documents.html" class="nav-link">
-                  <i class="nav-icon bi bi-file-text"></i>
-                  <p>Documents</p>
                 </a>
               </li>
             </ul>
@@ -352,19 +328,15 @@
       </aside>
       <!--end::Sidebar-->
       <!--begin::App Main-->
-      <main class="app-main appointment-page messages-page">
+      <main class="app-main">
         <!--begin::App Content Header-->
         <div class="app-content-header">
           <!--begin::Container-->
           <div class="container-fluid">
             <!--begin::Row-->
-            <div class="row align-items-center app-main-title">
-              <div class="col-12 col-md-6 col-sm-6">
-                <h1 class="mb-0">Messages</h1>
-				<p>Communicate with your healthcare team</p>
-              </div>
-			  <div class="col-12 col-md-6 col-sm-6 text-right">
-                <button class="btn btn-primary">New Messages</button>
+            <div class="row app-main-title">
+              <div class="col-sm-12">
+				<p><a style="color: #5C5C5C; text-decoration: none;" href="index.html"><i class="bi bi-arrow-left"></i> Back to Patient Directory</a></p>
               </div>
             </div>
             <!--end::Row-->
@@ -376,78 +348,156 @@
           <div class="container-fluid">
 			<div class="row mb-4">
 				<div class="col-12">
-					<div class="position-relative w-100">
 
-					  <!-- Search Icon -->
-					  <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3 text-muted"></i>
+					<div class="container-fluid p-0">
+						<div class="member-card">
 
-					  <!-- Search Input -->
-					  <input 
-						type="text" 
-						class="form-control ps-5 py-3" 
-						placeholder="Search Messages"
-					  >
+							<div class="d-flex justify-content-between align-items-start flex-wrap gap-4">
 
-					</div>
-				</div>
-			</div>
-            <!--begin::Row-->
-			<!-- Dashboard Wrapper -->
-			<div class="portal-dashboard">
+								<div>
+									<div class="mb-3 d-flex flex-wrap gap-2">
+										<span class="member-tag">Grace Period</span>
+										<span class="member-tag">Women’s Health</span>
+									</div>
 
-			  <!-- ========================= -->
-			  <!-- Recommended Appointments Row -->
-			  <!-- ========================= -->
-			  <div class="row mb-4">
+									<h1 class="member-name">Mountainise Thompson</h1>
+									<p class="member-email mb-0">mountainise@email.com</p>
+								</div>
 
-				<div class="col-12">
+								<div class="d-flex flex-wrap gap-3">
+									<button class="btn member-btn"
+											data-bs-toggle="modal"
+											data-bs-target="#shareModal">
+										<i class="bi bi-box-arrow-up-right"></i>
+										Share Portal Link
+									</button>
 
-				  <div class="dashboard-visits-row past-appointments-row">
+									<button class="btn member-btn"
+											data-bs-toggle="modal"
+											data-bs-target="#refundModal">
+										<i class="bi bi-currency-dollar"></i>
+										Request Refund
+									</button>
 
-					<div class="">
-
-					  <!-- Visit Item -->
-					  <div class="visit-item dashboard-team-card">
-
-						<div>
-
-						  <div>
-
-							<div class="message-item p-0">
-
-							  <h3 class="mb-1">
-								Billing Department <span class="fs-6">●</span>
-							  </h3>
-
-							  <p class="mb-1">
-								<strong>Your payment has been processed</strong>
-							  </p>
-							  
-							  <p class="mb-1">
-								Thank you for your payment of $128.00. Your transaction was successful...
-							  </p>
-							  <p class="mb-0 opacity-50">
-								2 hours ago
-							  </p>
+									<button class="btn member-btn"
+											data-bs-toggle="modal"
+											data-bs-target="#messageModal">
+										<i class="bi bi-chat"></i>
+										Send Message
+									</button>
+								</div>
 
 							</div>
 
-						  </div>
+							<div class="row g-4 mt-3">
+
+								<div class="col-lg-3 col-md-6">
+									<div class="stat-box">
+										<div class="stat-label">Member Since</div>
+										<div class="stat-value">Jan 15, 2024</div>
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6">
+									<div class="stat-box">
+										<div class="stat-label">Last Visit</div>
+										<div class="stat-value">Apr 21, 2026</div>
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6">
+									<div class="stat-box">
+										<div class="stat-label">Visits This Year</div>
+										<div class="stat-value">4</div>
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6">
+									<div class="stat-box">
+										<div class="stat-label">Last Payment</div>
+										<div class="stat-value">$247</div>
+									</div>
+								</div>
+
+							</div>
 
 						</div>
+					</div>
+					
+				</div>
+			</div>
+            <!--begin::Row-->
+<!-- Dashboard Wrapper -->
+<div class="portal-dashboard">
 
+  <!-- ========================= -->
+  <!-- Billing Summary Row -->
+  <!-- ========================= -->
+  <div class="row">
+
+    <div class="col-12">
+
+      <div class="dashboard-billing-row">
+
+        <div class="">
+			<div class="row mb-4 align-items-center">
+				<div class="col-lg-6">
+					<h2 class="">Membership Details</h2>
+					<!-- Membership Type -->
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Membership Type</span>
+						<span class="fw-bold" style="font-size:0.9rem;">Women's Health</span>
 					  </div>
 
-					</div>
+					  <!-- Status -->
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Status</span>
+						<span class="badge-pill">Grace Period</span>
+					  </div>
 
-				  </div>
+					  <!-- Renewal Date -->
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Renewal Date</span>
+						<span class="fw-semibold" style="font-size:0.9rem;">April 28, 2026</span>
+					  </div>
 
+					  <!-- Days Until Renewal -->
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Days Until Renewal</span>
+						<span class="fw-bold text-danger" style="font-size:0.9rem;">1 days overdue</span>
+					  </div>
 				</div>
-
-			  </div>
-
-
+				<div class="col-lg-6">
+					<h2 class="">Payment History</h2>
+					<!-- Membership Type -->
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Last Payment Date</span>
+						<span class="fw-bold" style="font-size:0.9rem;">March 28, 2026</span>
+					  </div>
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Last Payment Amount</span>
+						<span class="fw-bold" style="font-size:0.9rem;">$247</span>
+					  </div>
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Payment Method</span>
+						<span class="fw-bold" style="font-size:0.9rem;">Visa ending in 4242</span>
+					  </div>
+					  <div class="d-flex justify-content-between align-items-center py-2">
+						<span class="text-muted" style="font-size:0.9rem;">Visa ending in 4242</span>
+						<span class="fw-bold" style="font-size:0.9rem;">$247.00</span>
+					  </div>
+				</div>
 			</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
             <!--end::Row-->
           </div>
@@ -467,6 +517,144 @@
       </footer>
       <!--end::Footer-->
     </div>
+	
+	<!-- Share Portal Modal -->
+	<div class="modal fade" id="shareModal" tabindex="-1">
+	  <div class="modal-dialog modal-dialog-centered" style="max-width: 560px;">
+		<div class="modal-content border-0 rounded-3 p-2">
+
+		  <div class="modal-header border-0 pb-1">
+			<h5 class="modal-title fw-bold">Share Portal Access Link</h5>
+			<button class="btn-close" data-bs-dismiss="modal"></button>
+		  </div>
+
+		  <div class="modal-body pt-2">
+
+			<!-- Patient Info -->
+			<div class="rounded-3 p-3 mb-3" style="background:#f0f4f8; border: 1.5px solid #c9d8e8;">
+			  <div class="fw-semibold" style="color:#3a6ea5; font-size:0.95rem;">Patient: Mountainise Thompson</div>
+			  <div class="text-muted" style="font-size:0.85rem;">mountainise@email.com</div>
+			</div>
+
+			<!-- Portal Access Link -->
+			<div class="fw-bold mb-2" style="font-size:0.9rem;">Portal Access Link</div>
+			<div class="input-group mb-1 border rounded-2 overflow-hidden" style="border-color:#dee2e6 !important;">
+			  <input type="text" class="form-control border-0 bg-white shadow-none"
+				value="https://portal.perlowmedical.com/login?token=abc123xyz" readonly
+				style="font-size:0.85rem; color:#444;"/>
+			  <button class="btn btn-white border-0 d-flex align-items-center gap-1 px-3"
+				style="background:#f8f9fa; font-size:0.85rem; color:#555; border-left: 1px solid #dee2e6 !important;"
+				onclick="navigator.clipboard.writeText('https://portal.perlowmedical.com/login?token=abc123xyz')">
+				<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+				</svg>
+				Copy
+			  </button>
+			</div>
+			<div class="text-muted mb-3" style="font-size:0.8rem;">Link expires in 24 hours</div>
+
+			<!-- Send via Email -->
+			<div class="fw-bold mb-2" style="font-size:0.9rem;">Send via Email</div>
+			<textarea class="form-control shadow-none" rows="7" style="font-size:0.85rem; color:#444; resize:none; border-color:#dee2e6;">Hi Mountainise,
+
+	Here's your secure access link to the Perlow Medical Cooperation patient portal:
+
+	https://portal.perlowmedical.com/login?token=abc123xyz
+
+	This link will expire in 24 hours.
+
+	Best regards,
+	Perlow Medical Cooperation Team</textarea>
+
+		  </div>
+
+		  <!-- Footer Buttons -->
+		  <div class="modal-footer border-0 pt-1 gap-2">
+			<button class="btn text-dark px-4" data-bs-dismiss="modal"
+			  style="border: 1.5px solid #dee2e6; border-radius:8px; font-size:0.875rem;">Cancel</button>
+			<button class="btn px-4" style="background:#2c3e5b; color:#fff; border-radius:8px; font-size:0.875rem; font-weight:600;">Send Email</button>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+
+
+	<!-- Refund Modal -->
+	<div class="modal fade" id="refundModal" tabindex="-1">
+	  <div class="modal-dialog modal-dialog-centered" style="max-width: 560px;">
+		<div class="modal-content border-0 rounded-3 p-2">
+
+		  <div class="modal-header border-0 pb-1">
+			<h5 class="modal-title fw-bold">Submit Refund Request</h5>
+			<button class="btn-close" data-bs-dismiss="modal"></button>
+		  </div>
+
+		  <div class="modal-body pt-2">
+
+			<!-- Approval Notice -->
+			<div class="rounded-3 p-3 mb-4" style="background:#f0f4f8; border: 1.5px solid #c9d8e8;">
+			  <div class="fw-semibold mb-1" style="color:#3a6ea5; font-size:0.95rem;">Approval Required</div>
+			  <div class="text-muted" style="font-size:0.85rem;">This request will be routed to Dr. Perlow and Brandy for approval</div>
+			</div>
+
+			<!-- Patient -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Patient</label>
+			  <input type="text" class="form-control shadow-none" value="Mountainise Thompson" style="border-color:#dee2e6; font-size:0.875rem;"/>
+			</div>
+
+			<!-- Refund Amount -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Refund Amount</label>
+			  <input type="text" class="form-control shadow-none" value="$ 100.00" style="border-color:#dee2e6; font-size:0.875rem;"/>
+			</div>
+
+			<!-- Reason for Refund -->
+			<div class="mb-3">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Reason for refund</label>
+			  <select class="form-select shadow-none" style="border-color:#dee2e6; font-size:0.875rem;">
+				<option selected>Billing Error</option>
+				<option>Duplicate Charge</option>
+				<option>Service Not Rendered</option>
+				<option>Other</option>
+			  </select>
+			</div>
+
+			<!-- Additional Details -->
+			<div class="mb-2">
+			  <label class="fw-bold mb-2" style="font-size:0.9rem;">Additional Details</label>
+			  <textarea class="form-control shadow-none" rows="6" placeholder="Provide an additional context or explanation..." style="border-color:#dee2e6; font-size:0.875rem; resize:none;"></textarea>
+			</div>
+
+		  </div>
+
+		  <!-- Footer -->
+		  <div class="modal-footer border-0 pt-1 gap-2">
+			<button class="btn text-dark px-4" data-bs-dismiss="modal"
+			  style="border: 1.5px solid #dee2e6; border-radius:8px; font-size:0.875rem;">Cancel</button>
+			<button class="btn px-4" style="background:#2c3e5b; color:#fff; border-radius:8px; font-size:0.875rem; font-weight:600;">Send Email</button>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+
+
+	<!-- Message Modal -->
+	<div class="modal fade" id="messageModal" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Send Message</h5>
+					<button class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body">
+					Dummy content for Send Message popup.
+				</div>
+			</div>
+		</div>
+	</div>
     <!--end::App Wrapper-->
     <!--begin::Script-->
     <!--begin::Third Party Plugin(OverlayScrollbars)-->
